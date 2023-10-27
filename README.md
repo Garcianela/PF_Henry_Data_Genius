@@ -207,7 +207,7 @@ Los productos que entregaremos a Construction Valdes son:
 - Sistema de recomendación para zonas futuras de inversión basados en actividades de contratistas y construcción (por ejemplo, Exteriores, Remodelación de Interiores, etc)
 - Plan de acción para aumentar las ventas en base al análisis del mercado estadounidense.
 
-# Asignación de Responsabilidades a los Colaboradores del Proyecto
+# Miembros del equipo
 
 - *Data Analyst / Documentation Manager:* Esta persona tendrá un doble rol. Por un lado, se encargará de analizar los datos, lo que implica recopilar, limpiar y analizar la información para extraer conocimientos y generar informes. Por otro lado, también será el encargado de gestionar la documentación relacionada con el proyecto, como la creación y organización de documentos, informes y registros.
 

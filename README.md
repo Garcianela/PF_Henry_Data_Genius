@@ -12,6 +12,21 @@
 Somos una empresa especializada en análisis de datos, con un equipo altamente calificado que abarca desde Data Analysts hasta Machine Learning Engineers. Nuestra misión es desentrañar la valiosa información contenida en los comentarios de plataformas como Yelp y Google, para brindar a las empresas de construcción una visión profunda de su desempeño y las oportunidades de expansión que pueden aprovechar. Nuestro compromiso es proporcionar a nuestros clientes las herramientas necesarias para tomar decisiones fundamentadas y mejorar sus operaciones en un mercado altamente competitivo.
 </p>
 
+# Índice
+
+1. [Introducción](#introducción)
+2. [Contexto & Problemática](#contexto--problemática)
+3. [Objetivos](#objetivos)
+4. [Indicadores de Gestión (KPIs)](#indicadores-de-gestión-kpis)
+5. [Data](#data)
+6. [ETL (Extract, Transform, Load)](#etl-extract-transform-load)
+7. [EDA (Exploratory Data Analysis)](#eda-exploratory-data-analysis)
+8. [Stack Tecnológico & Flujo de Trabajo](#stack-tecnológico--flujo-de-trabajo)
+9. [Diccionario de Datos](#diccionario-de-datos)
+10. [Metodología SCRUM](#metodología-scrum)
+11. [Conclusiones](#conclusiones)
+12. [Miembros](#miembros)
+
 # Introducción
 
 <p align="justify">
@@ -137,19 +152,79 @@ Los datos de Google Maps se encontraban en dos carpetas en formato JSON y fueron
 <p align="center">
   <img src="src/analisis_sentimientos.jpg" width="300" height="200">
   <img src="src/analisis_sentimientos_anio.jpg" width="300" height="200">
+  <img src="src/Ciudades_Negocios.jpg" width="300" height="200">
 </p>
 
 <p align="center">
-  <img src="src/Ciudades_Negocios.jpg" width="300" height="200">
+   <img src="src/estados_mas_negocios.jpg" width="300" height="200">
   <img src="src/estados_mas_negocios.jpg" width="300" height="200">
-  <img src="src/nube_palabras.jpg" width="300" height="200">
+  <img src="src/Distribución_geoespacial_fresno.jpg" width="300" height="200">
+</p>
+
+<p align="center">
+   <img src="src/correlación_variables.jpg" width="300" height="200">
+  <img src="src/Nube_Alta_Calificación.jpg" width="300" height="200">
+  <img src="src/Nube_palabras_baja_calificación.jpg" width="300" height="200">
+</p>
+
+<p align="center">
+   <img src="src/Calificacion_negocio.jpg" width="300" height="200">
+  <img src="src/top10_categoria_mas_reseñas.jpg" width="300" height="200">
 </p>
 
 # Stack Tecnológico & Flujo de Trabajo
 
 <p align="center">
-  <img src="src/TechStackFlujoTrabajo.jpg" alt="fujo_trabajo">
+  <img src="src/Stack_Tecnológico.jpg" alt="fujo_trabajo">
 </p>
+
+# Diccionario de Datos
+
+<div align="center">
+  
+| Nombre Columna     | Tipo de Dato | Descripción                                                        |
+|--------------------|--------------|-------------------------------------------------------------------|
+| index              | (int)        | Contador a partir del 0 incrementándose uno a uno según los registros |
+| business_id        | (str)        | Identificador único de cada negocio, formado por números y letras |
+| business_name      | (str)        | Nombre del negocio                                                |
+| city               | (str)        | Ciudad donde se ubica el negocio                                   |
+| state              | (str)        | Estado donde se emplaza el negocio                                 |
+| latitude           | (float)      | Latitud                                                           |
+| longitude          | (float)      | Longitud                                                          |
+| stars_business     | (float)      | Puntaje del negocio en promedio, que varía del 1.00 al 5.00      |
+| review_count       | (int)        | Cantidad de vistas que tiene el negocio por parte de usuarios   |
+| attributes         | (str)        | Servicios extras que ofrece el negocio                            |
+| categories         | (str)        | Rubro general de cada negocio                                     |
+| biz_category1      | (bool)       | Categoría 'Exterior Remodeling or Construction' - Pertenece o no (true or false) |
+| biz_category2      | (bool)       | Categoría 'Interior Remodeling' - Pertenece o no (true or false)  |
+| biz_category3      | (bool)       | Categoría 'Masonry & Concrete Services' - Pertenece o no (true or false) |
+| biz_category4      | (bool)       | Categoría 'Cleaning Services' - Pertenece o no (true or false)   |
+| biz_category5      | (bool)       | Categoría 'HVAC & Air Quality' - Pertenece o no (true or false)   |
+| biz_category6      | (bool)       | Categoría 'Roofing & Insulation' - Pertenece o no (true or false) |
+| biz_category7      | (bool)       | Categoría 'Appliance Repair & Installation' - Pertenece o no (true or false) |
+| biz_category8      | (bool)       | Categoría 'Plumbing Services' - Pertenece o no (true or false)   |
+| biz_category9      | (bool)       | Categoría 'Landscape & Garden Services' - Pertenece o no (true or false) |
+| biz_category10     | (bool)       | Categoría 'Furniture Services' - Pertenece o no (true or false) |
+| biz_category11     | (bool)       | Categoría 'Electrical Services' - Pertenece o no (true or false) |
+| biz_category12     | (bool)       | Categoría 'Home Inspection & Real Estate' - Pertenece o no (true or false) |
+| biz_category13     | (bool)       | Categoría 'Handyman or Others' - Pertenece o no (true or false) |
+| user_id            | (str)        | Identificador único de cada usuario, formado por números y letras |
+| stars_by_user      | (float)      | Puntaje que el usuario otorga al negocio                          |
+| review_date        | (date)       | Fecha en la que se realizó la vista del usuario al negocio       |
+| extract_date       | (date)       | Fecha en la que se extrajeron los datos estáticos                |
+| Zip code           | (str)        | Código postal del estado                                         |
+| Id                 | (str)        | Identificador único de registro                                  |
+| State_Name         | (str)        | Nombre del estado                                                |
+| City               | (str)        | Nombre de la ciudad                                              |
+| Lat                | (float)      | Latitud                                                          |
+| Lon                | (float)      | Longitud                                                         |
+| Mean               | (int)        | Valor medio de ingresos                                         |
+| Median             | (Int)        | Mediana de ingresos                                              |
+| Stdev              | (float)      | Desviación estándar de ingresos                                  |
+| Sum_w              | (Int)        | Valor de ingresos                                                |
+| Total_income       | (float)      | PIB aproximado                                                   |
+| Income_range       | (float)      | Rangos de acuerdo a los ingresos                                 |
+</div>
 
 # Metodología SCRUM
 
@@ -188,12 +263,6 @@ Los datos de Google Maps se encontraban en dos carpetas en formato JSON y fueron
 - Priorización dinámica
 - Reuniones y eventos flexibles
 - Auto-organización del equipo
-
-# Diagrama de Gantt
-
-<p align="center">
-  <img src="src/Diagrama de Gantt.jpg" alt="diagrama">
-</p>
 
 # Conclusiones
 

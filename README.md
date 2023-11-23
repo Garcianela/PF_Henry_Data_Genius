@@ -1,18 +1,14 @@
-<h3 align="center">Proyecto Final</h3>
+# Proyecto Final
 
-<h3 align="center">Data Science</h3>
+## Data Science
 
-<p align="center">
-  <img src="src/data.jpg" alt="logo" width="200">
-</p>
+![logo](src/data.jpg)
 
-<h3 align="center">YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS</h3>
+## YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS
 
-<p align="justify">
 Somos una empresa especializada en análisis de datos, con un equipo altamente calificado que abarca desde Data Analysts hasta Machine Learning Engineers. Nuestra misión es desentrañar la valiosa información contenida en los comentarios de plataformas como Yelp y Google, para brindar a las empresas de construcción una visión profunda de su desempeño y las oportunidades de expansión que pueden aprovechar. Nuestro compromiso es proporcionar a nuestros clientes las herramientas necesarias para tomar decisiones fundamentadas y mejorar sus operaciones en un mercado altamente competitivo.
-</p>
 
-# Índice
+## Índice
 
 1. [Introducción](#introducción)
 2. [Contexto & Problemática](#contexto--problemática)
@@ -21,13 +17,15 @@ Somos una empresa especializada en análisis de datos, con un equipo altamente c
 5. [Data](#data)
 6. [ETL (Extract, Transform, Load)](#etl-extract-transform-load)
 7. [EDA (Exploratory Data Analysis)](#eda-exploratory-data-analysis)
-8. [Stack Tecnológico & Flujo de Trabajo](#stack-tecnológico--flujo-de-trabajo)
-9. [Diccionario de Datos](#diccionario-de-datos)
-10. [Metodología SCRUM](#metodología-scrum)
-11. [Conclusiones](#conclusiones)
-12. [Miembros](#miembros)
+8. [Dashboard](#dashboard)
+9. [Sistema de Recomendación](#sistema-recomendación)
+10. [Stack Tecnológico & Flujo de Trabajo](#stack-tecnológico--flujo-de-trabajo)
+11. [Diccionario de Datos](#diccionario-de-datos)
+12. [Metodología SCRUM](#metodología-scrum)
+13. [Conclusiones](#conclusiones)
+14. [Miembros](#miembros)
 
-# Introducción
+## Introducción
 
 <p align="justify">
 
@@ -41,7 +39,7 @@ Finalmente, hemos optado por utilizar Google Cloud y BigQuery debido a su capaci
 </p>
 
 
-# Contexto & Problemática
+## Contexto & Problemática
 
 <p align="justify">
 En la era digital actual, las opiniones de usuarios en plataformas como Yelp y Google son cruciales para las empresas. Estas reseñas influyen en las decisiones de compra y estrategias comerciales. Sin embargo, gestionar y analizar esta información valiosa puede ser un desafío, pero es esencial para comprender la percepción de los clientes y mejorar el rendimiento empresarial.
@@ -57,7 +55,7 @@ En el caso específico de Construction Valdes, la situación se complica aún m�
 En resumen, la gestión de las reseñas de los usuarios en plataformas como Yelp y Google se ha vuelto vital para las empresas en la actualidad, y Construction Valdes enfrenta desafíos adicionales en su intento de revertir la disminución de ventas y contrataciones. El análisis de estas opiniones y su aplicación efectiva en la toma de decisiones comerciales se presenta como un componente clave en la resolución de la problemática actual de la empresa.
 </p>
 
-# Objetivos de Proyecto
+## Objetivos de Proyecto
 
 ### Objetivo General:
 
@@ -73,7 +71,7 @@ En resumen, la gestión de las reseñas de los usuarios en plataformas como Yelp
 
     Analizar el rendimiento actual de Construction Valdes y desarrollar estrategias destinadas a mejorar la interacción y desempeño con los clientes.
 
-# KPIs
+## KPIs
 
 - **Satisfacción al Cliente:**
   - *Métrica:* Cantidad de reseñas positivas
@@ -92,7 +90,7 @@ En resumen, la gestión de las reseñas de los usuarios en plataformas como Yelp
   - *Meta:* Aumento del 5% en un año para Construction Valdes.
 
 
-# Data
+## Data
 
 Los datos crudos se extrajeron de la carpeta de Google Drive proporcionada por Henry, concretamente de fuentes como Google Maps y Yelp. Estos datos se presentan en formatos que incluyen JSON, Parquet y Pickle.
 
@@ -145,7 +143,7 @@ Los datos de Google Maps se encontraban en dos carpetas en formato JSON y fueron
 
 - Finalmente, se unen yelp.csv y google_maps.csv mediante la columna gmap_id, generando un nuevo dataframe llamado df_google_yelp en formato CSV. Esta base de datos estática será empleada para alimentar nuestro Google Cloud.
 
-[Enlace a notebook:](https://drive.google.com/drive/folders/1a7djToO058NtHjPVHixx8YmJpIUlK_VP)
+Enlace a notebook [aquí]:(https://drive.google.com/drive/folders/1xJbhJBgdrO2sS8kIYTRATLZvdRHSikmK?usp=drive_link)
 
 ## EDA (Exploratory Data Analysis):
 
@@ -156,29 +154,86 @@ Los datos de Google Maps se encontraban en dos carpetas en formato JSON y fueron
 </p>
 
 <p align="center">
-   <img src="src/estados_mas_negocios.jpg" width="300" height="200">
   <img src="src/estados_mas_negocios.jpg" width="300" height="200">
   <img src="src/Distribución_geoespacial_fresno.jpg" width="300" height="200">
+  <img src="src/correlación_variables.jpg" width="300" height="200">
 </p>
 
 <p align="center">
-   <img src="src/correlación_variables.jpg" width="300" height="200">
   <img src="src/Nube_Alta_Calificación.jpg" width="300" height="200">
   <img src="src/Nube_palabras_baja_calificación.jpg" width="300" height="200">
+  <img src="src/Calificacion_negocio.jpg" width="300" height="200">
 </p>
 
 <p align="center">
-   <img src="src/Calificacion_negocio.jpg" width="300" height="200">
   <img src="src/top10_categoria_mas_reseñas.jpg" width="300" height="200">
 </p>
 
-# Stack Tecnológico & Flujo de Trabajo
+Enlace a notebook [aquí]:(https://drive.google.com/drive/folders/1xJbhJBgdrO2sS8kIYTRATLZvdRHSikmK?usp=drive_link)
+
+
+## Stack Tecnológico & Flujo de Trabajo
 
 <p align="center">
   <img src="src/Stack_Tecnológico.jpg" alt="fujo_trabajo">
 </p>
 
-# Diccionario de Datos
+## Dashboard: 
+
+  En la era digital actual, la toma de decisiones informada y estratégica es esencial para el éxito de cualquier proyecto o empresa. En este contexto, las dashboards se han convertido en herramientas indispensables que ofrecen una visión integral y en tiempo real de los datos clave que impulsan las operaciones y el rendimiento organizacional. Estas interfaces visuales no solo simplifican la complejidad de la información, sino que también empoderan a los equipos directivos con la capacidad de identificar patrones, evaluar tendencias y, en última instancia, tomar decisiones más acertadas.
+
+### Estructura del Dashboard
+
+Veamos la estructura del dashboard. La primera sección consta de dos segmentadores: uno para categorías y otro para fechas.
+
+En esta sección, se muestran los indicadores clave de rendimiento (KPI) de la empresa. El primer KPI presenta el estado general de la empresa, proporcionando una instantánea concisa de su salud operativa. El segundo KPI destaca la satisfacción del cliente, un aspecto crucial para el éxito a largo plazo. Finalmente, el tercer KPI ofrece información detallada sobre la gestión de la empresa, brindando a los responsables decisiones una comprensión profunda de los procesos internos. Estos KPIs no solo simplifican la complejidad de los datos, sino que también sirven como faros que guían la toma de decisiones estratégicas, permitiendo a los líderes dirigir sus esfuerzos hacia áreas específicas que requieren atención y mejora continua. En conjunto, esta estructura de dashboard se posiciona como un recurso invaluable para desbloquear el potencial máximo de una empresa al proporcionar información significativa y accionable.
+
+<p align="center">
+  <img src="src/Dashboard.jpg" alt="dashboard">
+</p>
+
+Puedes acceder a nuestro [dashboard aquí](https://app.powerbi.com/view?r=eyJrIjoiZjMyNmIwMzgtOWQ3Ni00MzZhLTkxZTktYjY4NGNiZDQ5NmVjIiwidCI6IjU3Y2NiNDViLTY2OWQtNDM2OC1hMmYyLTBhZTdhNGRkMmUzOSIsImMiOjR9&disablecdnExpiration=1699604191).
+Acceso a los recursos desde la página web [aquí] (https://datagenius.my.canva.site/about)
+Password: 568910
+
+## Sistemas de Recomendación
+
+En el fascinante mundo de los sistemas de recomendación, la etapa inicial desencadena un proceso crucial: la recopilación de datos esenciales para la formulación de recomendaciones perspicaces. Este primer paso implica la adquisición de información detallada sobre usuarios, negocios y las interacciones entre ambos. En esta fase crucial, la depuración meticulosa de los datos se convierte en la piedra angular para identificar y seleccionar los negocios que destacarán en la experiencia de recomendación. Para lograr este objetivo, se consideran diversas características que actúan como criterios de evaluación fundamentales.
+
+### Características Clave para la Selección de Negocios:
+
+- **Alto Consumo:** La propensión de los negocios a un alto consumo de productos o servicios sugiere popularidad y una experiencia positiva para los usuarios.
+
+- **Alto Ingreso Per Cápita:** La ubicación en áreas con un alto ingreso per cápita señala la capacidad de atraer a clientes con mayor poder adquisitivo.
+
+- **Bajo Volumen de Negocios:** La baja rotación de negocios indica menos competencia y la posibilidad de ofrecer una experiencia más personalizada.
+
+- **Alta Calificación de Estrellas:** Los negocios con altas calificaciones de estrellas sugieren la prestación de servicios de calidad y productos que cumplen con las expectativas.
+
+- **Cantidad de Reseñas Alta:** La presencia de un elevado número de reseñas indica confiabilidad y una experiencia positiva respaldada por la comunidad de usuarios.
+
+### Modelo LSH (Local Sensitive Hashing):
+
+En la siguiente fase, el proceso avanza hacia la implementación de un algoritmo LSH. Este algoritmo transforma los datos en un espacio de características, facilitando una comparación más eficiente entre usuarios y negocios en el vasto conjunto de datos.
+
+### Recomendación:
+
+Finalmente, se llega al emocionante momento de la recomendación, donde los resultados del sistema se presentan a los usuarios, ofreciendo sugerencias personalizadas que optimizan la experiencia de cada individuo. En este punto, la sinergia entre la recopilación de datos, el modelo LSH y el proceso de recomendación culmina en la entrega de sugerencias relevantes y valiosas para cada usuario.
+
+---
+
+**API de Recomendación:**
+Puedes explorar la documentación de la API [aquí](https://final-project-henry-rs-contractors.onrender.com/docs).
+Acceso a los recursos desde la página web [aquí] (https://datagenius.my.canva.site/about)
+Password: 568910
+
+<p align="center">
+   <img src="src/API.jpg" width="300" height="200">
+  <img src="src/API_1.jpg" width="300" height="200">
+</p>
+
+
+## Diccionario de Datos
 
 <div align="center">
   
@@ -226,9 +281,9 @@ Los datos de Google Maps se encontraban en dos carpetas en formato JSON y fueron
 | Income_range       | (float)      | Rangos de acuerdo a los ingresos                                 |
 </div>
 
-# Metodología SCRUM
+## Metodología SCRUM
 
-## Equipo SCRUM:
+### Equipo SCRUM:
 - **Product Owner:** 
   - Es el interesado en el producto final. Fue el encargado de establecer las necesidades del producto.
 
@@ -237,34 +292,34 @@ Los datos de Google Maps se encontraban en dos carpetas en formato JSON y fueron
 
 - **Desarrolladores:** Adrián Silva, Marianela García, Cecilia Gómez, Juan Camilo Grisales, Germán Robles
 
-## Sprints:
+### Sprints:
 - Total del proyecto: 3 semanas.
 - Total de sprints: 3 sprints, 1 por semana.
 - Cada semana se entrega un grupo de hitos para mostrar el avance del proyecto.
 - Daily Meeting: Reunión diaria Desarrolladores + Scrum Master, 30 minutos.
 - Revisión Sprint: Viernes, 30 minutos.
 
-## Increment:
+### Increment:
 - Registro semanal de las actividades realizadas, incrementa gradualmente hasta completar el proyecto.
 
-## Revisión Sprint:
+### Revisión Sprint:
 - Product owner revisa los incrementos, logros alcanzados y faltantes.
 
-## Burndown chart:
+### Burndown chart:
 - Manejo de Diagrama de Gantt para organizar actividades y rastrear avance.
 
-## Principios SCRUM:
+### Principios SCRUM:
 - Transparencia
 - Inspección
 - Adaptación
 
-## Flexibilidad SCRUM:
+### Flexibilidad SCRUM:
 - Iterativo (sprints) e incremental
 - Priorización dinámica
 - Reuniones y eventos flexibles
 - Auto-organización del equipo
 
-# Conclusiones
+## Conclusiones
 
 Los productos que entregaremos a Construction Valdes son:
 
@@ -276,7 +331,7 @@ Los productos que entregaremos a Construction Valdes son:
 - Sistema de recomendación para zonas futuras de inversión basados en actividades de contratistas y construcción (por ejemplo, Exteriores, Remodelación de Interiores, etc)
 - Plan de acción para aumentar las ventas en base al análisis del mercado estadounidense.
 
-# Miembros del equipo
+## Miembros del equipo
 
 - *Data Analyst / Documentation Manager:* Esta persona tendrá un doble rol. Por un lado, se encargará de analizar los datos, lo que implica recopilar, limpiar y analizar la información para extraer conocimientos y generar informes. Por otro lado, también será el encargado de gestionar la documentación relacionada con el proyecto, como la creación y organización de documentos, informes y registros.
 
@@ -287,5 +342,3 @@ Los productos que entregaremos a Construction Valdes son:
 <p align="center">
   <img src="src/organigrama.jpg" alt="organigrama">
 </p>
-
-

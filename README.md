@@ -8,7 +8,7 @@
 
 ## YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS
 
-Somos una empresa especializada en análisis de datos, con un equipo altamente calificado que abarca desde Data Analysts hasta Machine Learning Engineers. Nuestra misión es desentrañar la valiosa información contenida en los comentarios de plataformas como Yelp y Google, para brindar a las empresas de construcción una visión profunda de su desempeño y las oportunidades de expansión que pueden aprovechar. Nuestro compromiso es proporcionar a nuestros clientes las herramientas necesarias para tomar decisiones fundamentadas y mejorar sus operaciones en un mercado altamente competitivo.
+  Somos una empresa especializada en análisis de datos, con un equipo altamente calificado que abarca desde Data Analysts hasta Machine Learning Engineers. Nuestra misión es desentrañar la valiosa información contenida en los comentarios de plataformas como Yelp y Google, para brindar a las empresas de construcción una visión profunda de su desempeño y las oportunidades de expansión que pueden aprovechar. Nuestro compromiso es proporcionar a nuestros clientes las herramientas necesarias para tomar decisiones fundamentadas y mejorar sus operaciones en un mercado altamente competitivo.
 
 ## Índice
 
@@ -31,22 +31,22 @@ Somos una empresa especializada en análisis de datos, con un equipo altamente c
 
 <p align="justify">
 
-La arquitectura en Estados Unidos no solo refleja la evolución de la sociedad y los valores nacionales, sino que desempeña un papel fundamental en la economía del país. Las empresas constructoras en Estados Unidos son piezas clave en la creación y preservación del patrimonio arquitectónico de la nación, aportando de manera significativa al desarrollo y la modernización del país.
+  La arquitectura en Estados Unidos no solo refleja la evolución de la sociedad y los valores nacionales, sino que desempeña un papel fundamental en la economía del país. Las empresas constructoras en Estados Unidos son piezas clave en la creación y preservación del patrimonio arquitectónico de la nación, aportando de manera significativa al desarrollo y la modernización del país.
 
-En Estados Unidos subrayan la importancia esencial de las empresas constructoras en la materialización de una amplia gama de proyectos, desde la restauración de edificios históricos hasta la construcción de rascacielos contemporáneos. Este papel fundamental de las contratistas no solo incide en la construcción, sino también en la configuración del carácter distintivo de Estados Unidos.
+  En Estados Unidos subrayan la importancia esencial de las empresas constructoras en la materialización de una amplia gama de proyectos, desde la restauración de edificios históricos hasta la construcción de rascacielos contemporáneos. Este papel fundamental de las contratistas no solo incide en la construcción, sino también en la configuración del carácter distintivo de Estados Unidos.
 
-En este proyecto, exploraremos este emocionante viaje donde la opinión de los usuarios se convierte en un recurso inestimable para las empresas. Nos enfocaremos en la importancia de una gestión efectiva de reseñas en plataformas como Yelp y Google, especialmente en el contexto de una empresa como Construction Valdes, que enfrenta desafíos notables en su desempeño comercial. Analizaremos cómo estas reseñas pueden ser un componente clave en la resolución de los desafíos actuales de la empresa.
+  En este proyecto, exploraremos este emocionante viaje donde la opinión de los usuarios se convierte en un recurso inestimable para las empresas. Nos enfocaremos en la importancia de una gestión efectiva de reseñas en plataformas como Yelp y Google, especialmente en el contexto de una empresa como Construction Valdes, que enfrenta desafíos notables en su desempeño comercial. Analizaremos cómo estas reseñas pueden ser un componente clave en la resolución de los desafíos actuales de la empresa.
 
-Finalmente, hemos optado por utilizar Google Cloud y BigQuery debido a su capacidad de escalabilidad flexible, lo que se adapta a las necesidades, independientemente del tamaño de los conjuntos de datos que se manejen. Esta flexibilidad para ajustar los recursos no solo mejora la eficiencia, sino que también permite un crecimiento sin complicaciones. Ambas plataformas ofrecen un equilibrio excepcional entre rendimiento, escalabilidad, seguridad y facilidad de uso, lo que las hace sumamente valiosas para una amplia variedad de aplicaciones empresariales y proyectos de análisis de datos.
+  Finalmente, hemos optado por utilizar Google Cloud y BigQuery debido a su capacidad de escalabilidad flexible, lo que se adapta a las necesidades, independientemente del tamaño de los conjuntos de datos que se manejen. Esta flexibilidad para ajustar los recursos no solo mejora la eficiencia, sino que también permite un crecimiento sin complicaciones. Ambas plataformas ofrecen un equilibrio excepcional entre rendimiento, escalabilidad, seguridad y facilidad de uso, lo que las hace sumamente valiosas para una amplia variedad de aplicaciones empresariales y proyectos de análisis de datos.
 </p>
 
 
 ## Contexto & Problemática
 
 <p align="justify">
-En la era digital actual, las opiniones de usuarios en plataformas como Yelp y Google son cruciales para las empresas. Estas reseñas influyen en las decisiones de compra y estrategias comerciales. Sin embargo, gestionar y analizar esta información valiosa puede ser un desafío, pero es esencial para comprender la percepción de los clientes y mejorar el rendimiento empresarial.
+  En la era digital actual, las opiniones de usuarios en plataformas como Yelp y Google son cruciales para las empresas. Estas reseñas influyen en las decisiones de compra y estrategias comerciales. Sin embargo, gestionar y analizar esta información valiosa puede ser un desafío, pero es esencial para comprender la percepción de los clientes y mejorar el rendimiento empresarial.
 
-En el caso específico de Construction Valdes, la situación se complica aún más. La empresa ha experimentado una disminución significativa en las ventas, lo que sugiere que hay problemas más profundos en su desempeño comercial. Este declive en los resultados económicos es una preocupación importante y podría estar relacionado con la percepción negativa de los clientes, lo que hace que la gestión efectiva de las reseñas y la mejora de la imagen de la empresa sean aún más cruciales.
+  En el caso específico de Construction Valdes, la situación se complica aún más. La empresa ha experimentado una disminución significativa en las ventas, lo que sugiere que hay problemas más profundos en su desempeño comercial. Este declive en los resultados económicos es una preocupación importante y podría estar relacionado con la percepción negativa de los clientes, lo que hace que la gestión efectiva de las reseñas y la mejora de la imagen de la empresa sean aún más cruciales.
 
 <p align="center">
   <img src="src/cambio.jpg" width="300" height="200">
@@ -54,7 +54,7 @@ En el caso específico de Construction Valdes, la situación se complica aún m�
   <img src="src/pronostico_futuro.jpg" width="300" height="200">
 </p>
 
-En resumen, la gestión de las reseñas de los usuarios en plataformas como Yelp y Google se ha vuelto vital para las empresas en la actualidad, y Construction Valdes enfrenta desafíos adicionales en su intento de revertir la disminución de ventas y contrataciones. El análisis de estas opiniones y su aplicación efectiva en la toma de decisiones comerciales se presenta como un componente clave en la resolución de la problemática actual de la empresa.
+  En resumen, la gestión de las reseñas de los usuarios en plataformas como Yelp y Google se ha vuelto vital para las empresas en la actualidad, y Construction Valdes enfrenta desafíos adicionales en su intento de revertir la disminución de ventas y contrataciones. El análisis de estas opiniones y su aplicación efectiva en la toma de decisiones comerciales se presenta como un componente clave en la resolución de la problemática actual de la empresa.
 </p>
 
 ## Objetivos de Proyecto
@@ -94,9 +94,9 @@ En resumen, la gestión de las reseñas de los usuarios en plataformas como Yelp
 
 ## Data
 
-Los datos crudos se extrajeron de la carpeta de Google Drive proporcionada por Henry, concretamente de fuentes como Google Maps y Yelp. Estos datos se presentan en formatos que incluyen JSON, Parquet y Pickle.
+  Los datos crudos se extrajeron de la carpeta de Google Drive proporcionada por Henry, concretamente de fuentes como Google Maps y Yelp. Estos datos se presentan en formatos que incluyen JSON, Parquet y Pickle.
 
-En particular, se enfocó en la selección de negocios relacionados con el sector de la construcción (conocidos en Estados Unidos como contratistas). A partir de estos datos, se llevaron a cabo procesos de transformación (ETL) y exploración de datos (EDA) con el propósito de crear nuevos conjuntos de datos que estuvieran limpios, transformados y normalizados, listos para ser cargados en una base de datos.
+  En particular, se enfocó en la selección de negocios relacionados con el sector de la construcción (conocidos en Estados Unidos como contratistas). A partir de estos datos, se llevaron a cabo procesos de transformación (ETL) y exploración de datos (EDA) con el propósito de crear nuevos conjuntos de datos que estuvieran limpios, transformados y normalizados, listos para ser cargados en una base de datos.
 
 ## ETL (Extract, Transform, Load):
 
@@ -182,26 +182,27 @@ Enlace a notebook [aquí]:(https://drive.google.com/drive/folders/1xJbhJBgdrO2sS
 
 ## Dashboard: 
 
-  En la era digital actual, la toma de decisiones informada y estratégica es esencial para el éxito de cualquier proyecto o empresa. En este contexto, las dashboards se han convertido en herramientas indispensables que ofrecen una visión integral y en tiempo real de los datos clave que impulsan las operaciones y el rendimiento organizacional. Estas interfaces visuales no solo simplifican la complejidad de la información, sino que también empoderan a los equipos directivos con la capacidad de identificar patrones, evaluar tendencias y, en última instancia, tomar decisiones más acertadas.
-
-### Estructura del Dashboard
-
-Veamos la estructura del dashboard. La primera sección consta de dos segmentadores: uno para categorías y otro para fechas.
-
-En esta sección, se muestran los indicadores clave de rendimiento (KPI) de la empresa. El primer KPI presenta el estado general de la empresa, proporcionando una instantánea concisa de su salud operativa. El segundo KPI destaca la satisfacción del cliente, un aspecto crucial para el éxito a largo plazo. Finalmente, el tercer KPI ofrece información detallada sobre la gestión de la empresa, brindando a los responsables decisiones una comprensión profunda de los procesos internos. Estos KPIs no solo simplifican la complejidad de los datos, sino que también sirven como faros que guían la toma de decisiones estratégicas, permitiendo a los líderes dirigir sus esfuerzos hacia áreas específicas que requieren atención y mejora continua. En conjunto, esta estructura de dashboard se posiciona como un recurso invaluable para desbloquear el potencial máximo de una empresa al proporcionar información significativa y accionable.
-
-<p align="center">
-  <img src="src/Dashboard.jpg" alt="dashboard">
-</p>
-
 Puedes acceder a nuestro dashboard [aquí](https://app.powerbi.com/view?r=eyJrIjoiZjMyNmIwMzgtOWQ3Ni00MzZhLTkxZTktYjY4NGNiZDQ5NmVjIiwidCI6IjU3Y2NiNDViLTY2OWQtNDM2OC1hMmYyLTBhZTdhNGRkMmUzOSIsImMiOjR9&disablecdnExpiration=1699604191).
 
 Acceso a los recursos desde la página web [aquí](https://datagenius.my.canva.site/about)
 Password: 568910
 
+  En la era digital actual, la toma de decisiones informada y estratégica es esencial para el éxito de cualquier proyecto o empresa. En este contexto, las dashboards se han convertido en herramientas indispensables que ofrecen una visión integral y en tiempo real de los datos clave que impulsan las operaciones y el rendimiento organizacional. Estas interfaces visuales no solo simplifican la complejidad de la información, sino que también empoderan a los equipos directivos con la capacidad de identificar patrones, evaluar tendencias y, en última instancia, tomar decisiones más acertadas.
+
+### Estructura del Dashboard
+
+  Veamos la estructura del dashboard. La primera sección consta de dos segmentadores: uno para categorías y otro para fechas.
+
+  En esta sección, se muestran los indicadores clave de rendimiento (KPI) de la empresa. El primer KPI presenta el estado general de la empresa, proporcionando una instantánea concisa de su salud operativa. El segundo KPI destaca la satisfacción del cliente, un aspecto crucial para el éxito a largo plazo. Finalmente, el tercer KPI ofrece información detallada sobre la gestión de la empresa, brindando a los responsables decisiones una comprensión profunda de los procesos internos. Estos KPIs no solo simplifican la complejidad de los datos, sino que también sirven como faros que guían la toma de decisiones estratégicas, permitiendo a los líderes dirigir sus esfuerzos hacia áreas específicas que requieren atención y mejora continua. En conjunto, esta estructura de dashboard se posiciona como un recurso invaluable para desbloquear el potencial máximo de una empresa al proporcionar información significativa y accionable.
+
+<p align="center">
+  <img src="src/Dashboard.jpg" alt="dashboard">
+</p>
+
+
 ## Sistemas de Recomendación
 
-En el fascinante mundo de los sistemas de recomendación, la etapa inicial desencadena un proceso crucial: la recopilación de datos esenciales para la formulación de recomendaciones perspicaces. Este primer paso implica la adquisición de información detallada sobre usuarios, negocios y las interacciones entre ambos. En esta fase crucial, la depuración meticulosa de los datos se convierte en la piedra angular para identificar y seleccionar los negocios que destacarán en la experiencia de recomendación. Para lograr este objetivo, se consideran diversas características que actúan como criterios de evaluación fundamentales.
+  En el fascinante mundo de los sistemas de recomendación, la etapa inicial desencadena un proceso crucial: la recopilación de datos esenciales para la formulación de recomendaciones perspicaces. Este primer paso implica la adquisición de información detallada sobre usuarios, negocios y las interacciones entre ambos. En esta fase crucial, la depuración meticulosa de los datos se convierte en la piedra angular para identificar y seleccionar los negocios que destacarán en la experiencia de recomendación. Para lograr este objetivo, se consideran diversas características que actúan como criterios de evaluación fundamentales.
 
 ### Características Clave para la Selección de Negocios:
 
@@ -217,11 +218,11 @@ En el fascinante mundo de los sistemas de recomendación, la etapa inicial desen
 
 ### Modelo LSH (Local Sensitive Hashing):
 
-En la siguiente fase, el proceso avanza hacia la implementación de un algoritmo LSH. Este algoritmo transforma los datos en un espacio de características, facilitando una comparación más eficiente entre usuarios y negocios en el vasto conjunto de datos.
+  En la siguiente fase, el proceso avanza hacia la implementación de un algoritmo LSH. Este algoritmo transforma los datos en un espacio de características, facilitando una comparación más eficiente entre usuarios y negocios en el vasto conjunto de datos.
 
 ### Recomendación:
 
-Finalmente, se llega al emocionante momento de la recomendación, donde los resultados del sistema se presentan a los usuarios, ofreciendo sugerencias personalizadas que optimizan la experiencia de cada individuo. En este punto, la sinergia entre la recopilación de datos, el modelo LSH y el proceso de recomendación culmina en la entrega de sugerencias relevantes y valiosas para cada usuario.
+  Finalmente, se llega al emocionante momento de la recomendación, donde los resultados del sistema se presentan a los usuarios, ofreciendo sugerencias personalizadas que optimizan la experiencia de cada individuo. En este punto, la sinergia entre la recopilación de datos, el modelo LSH y el proceso de recomendación culmina en la entrega de sugerencias relevantes y valiosas para cada usuario.
 
 **API de Recomendación:**
 

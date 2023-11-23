@@ -1,8 +1,10 @@
-# Proyecto Final
+<h1 align="center">Proyecto Final</h1>
 
-## Data Science
+<h2 align="center">Data Science</h2>
 
-![logo](src/data.jpg)
+<p align="center">
+  <img src="src/data.jpg" alt="logo" width="200">
+</p>
 
 ## YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS
 
@@ -113,8 +115,8 @@ Los datos de Google Maps se encontraban en dos carpetas en formato JSON y fueron
   - Se creó una columna en cada dataset con el estado correspondiente.
   - Los dataframes de cada estado se concatenaron para contar con la información completa de todos los estados.
   - El nuevo dataframe de todos los estados se fusionó con el dataframe reviews-sitios a través de la columna gmap_id.
-
-[Enlace a notebook:](https://drive.google.com/drive/folders/1a7djToO058NtHjPVHixx8YmJpIUlK_VP)
+    
+[Enlace a notebook](https://drive.google.com/drive/folders/1a7djToO058NtHjPVHixx8YmJpIUlK_VP)
 
 ### Yelp:
 
@@ -169,7 +171,7 @@ Enlace a notebook [aquí]:(https://drive.google.com/drive/folders/1xJbhJBgdrO2sS
   <img src="src/top10_categoria_mas_reseñas.jpg" width="300" height="200">
 </p>
 
-Enlace a notebook [aquí]:(https://drive.google.com/drive/folders/1xJbhJBgdrO2sS8kIYTRATLZvdRHSikmK?usp=drive_link)
+[Enlace a notebook](https://drive.google.com/drive/folders/1a7djToO058NtHjPVHixx8YmJpIUlK_VP)
 
 
 ## Stack Tecnológico & Flujo de Trabajo
@@ -192,8 +194,9 @@ En esta sección, se muestran los indicadores clave de rendimiento (KPI) de la e
   <img src="src/Dashboard.jpg" alt="dashboard">
 </p>
 
-Puedes acceder a nuestro [dashboard aquí](https://app.powerbi.com/view?r=eyJrIjoiZjMyNmIwMzgtOWQ3Ni00MzZhLTkxZTktYjY4NGNiZDQ5NmVjIiwidCI6IjU3Y2NiNDViLTY2OWQtNDM2OC1hMmYyLTBhZTdhNGRkMmUzOSIsImMiOjR9&disablecdnExpiration=1699604191).
-Acceso a los recursos desde la página web [aquí] (https://datagenius.my.canva.site/about)
+Puedes acceder a nuestro dashboard [aquí](https://app.powerbi.com/view?r=eyJrIjoiZjMyNmIwMzgtOWQ3Ni00MzZhLTkxZTktYjY4NGNiZDQ5NmVjIiwidCI6IjU3Y2NiNDViLTY2OWQtNDM2OC1hMmYyLTBhZTdhNGRkMmUzOSIsImMiOjR9&disablecdnExpiration=1699604191).
+
+Acceso a los recursos desde la página web [aquí](https://datagenius.my.canva.site/about)
 Password: 568910
 
 ## Sistemas de Recomendación
@@ -220,18 +223,18 @@ En la siguiente fase, el proceso avanza hacia la implementación de un algoritmo
 
 Finalmente, se llega al emocionante momento de la recomendación, donde los resultados del sistema se presentan a los usuarios, ofreciendo sugerencias personalizadas que optimizan la experiencia de cada individuo. En este punto, la sinergia entre la recopilación de datos, el modelo LSH y el proceso de recomendación culmina en la entrega de sugerencias relevantes y valiosas para cada usuario.
 
----
-
 **API de Recomendación:**
-Puedes explorar la documentación de la API [aquí](https://final-project-henry-rs-contractors.onrender.com/docs).
-Acceso a los recursos desde la página web [aquí] (https://datagenius.my.canva.site/about)
-Password: 568910
 
 <p align="center">
-   <img src="src/API.jpg" width="300" height="200">
-  <img src="src/API_1.jpg" width="300" height="200">
+  <img src="src/API.jpg" alt="API Screenshot 1" width="50%">
+  <img src="src/API_1.jpg" alt="API Screenshot 2" width="50%">
 </p>
 
+
+Explora la documentación de la API [aquí](https://final-project-henry-rs-contractors.onrender.com/docs).
+
+Accede a los recursos desde la página web [aquí](https://datagenius.my.canva.site/about)
+Password: 568910
 
 ## Diccionario de Datos
 
